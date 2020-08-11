@@ -1,9 +1,15 @@
-body{
-    background-color: black;
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
 }
 
+.left-side {
+    display: flex;
+}
 
-.standard{
-    text-align: center;
-    color: aqua;
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
 }
